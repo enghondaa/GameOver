@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #32383e !important;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.6);
+    border-radius: 0.25rem;
+}
+.grow:hover {
+    transform: scale(1.03);
+}
+
+.grow{
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.badge-span {
+    color: #fff;
+    background-color: #4799eb;
+}
+.text-truncate{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fa-plus-square:before, .fa-square-plus:before {
+    content: "\f0fe";
+}
+.fa-windows:before {
+    content: "\f17a";
+}
+.stretched-link:after {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    content: "";
+}
+.badge-genre{
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-size: 16px !important;
+}
